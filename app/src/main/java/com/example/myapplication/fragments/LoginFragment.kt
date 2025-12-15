@@ -43,7 +43,7 @@ class LoginFragment : Fragment() {
                 val options = androidx.navigation.NavOptions.Builder()
                     .setPopUpTo(R.id.loginFragment, true)
                     .build()
-                findNavController().navigate(R.id.action_loginFragment_to_tabFragment, null, options)
+                findNavController().navigate(R.id.tabFragment, null, options)
             } else {
                 binding.textInputLayoutUsername.error = getString(R.string.error_invalid_credentials)
                 binding.textInputLayoutPassword.error = getString(R.string.error_invalid_credentials)

@@ -41,4 +41,10 @@
         android:label="@string/prefs_title"
         tools:layout="@layout/fragment_preferences" />
 
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.example.myapplication.fragments.FavFragment"
+        android:label="@string/tab_favorites"
+        tools:layout="@layout/fragment_fav" />
+
 </navigation>

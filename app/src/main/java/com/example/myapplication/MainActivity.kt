@@ -5,7 +5,6 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.addCallback
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.GravityCompat
@@ -29,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navView: NavigationView
     private lateinit var bottomNav: BottomNavigationView
     private lateinit var appBar: com.google.android.material.appbar.AppBarLayout
-    private lateinit var drawerToggle: ActionBarDrawerToggle
     private lateinit var listViewModel: ListViewModel
     private var showListMenu = false
     private lateinit var navController: NavController
@@ -52,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.navController
 
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.tabFragment, R.id.contactFragment, R.id.preferencesFragment), drawerLayout
+            setOf(R.id.tabFragment, R.id.favFragment, R.id.contactFragment, R.id.preferencesFragment), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
 
@@ -77,13 +75,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
-        drawerToggle = ActionBarDrawerToggle(
-            this, drawerLayout, toolbar, R.string.app_name, R.string.app_name
-        )
-        drawerLayout.addDrawerListener(drawerToggle)
-        drawerToggle.syncState()
-
+        
         listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
@@ -95,8 +87,6 @@ class MainActivity : AppCompatActivity() {
             drawerLayout.setDrawerLockMode(
                 if (inAuth) DrawerLayout.LOCK_MODE_LOCKED_CLOSED else DrawerLayout.LOCK_MODE_UNLOCKED
             )
-            drawerToggle.isDrawerIndicatorEnabled = !inAuth
-            supportActionBar?.setDisplayHomeAsUpEnabled(!drawerToggle.isDrawerIndicatorEnabled && !inAuth)
 
             showListMenu = inTabs
             invalidateOptionsMenu()
@@ -139,6 +129,14 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.action_sort -> {
                 listViewModel.toggleSort()
+                true
+            }
+            R.id.action_go_login -> {
+                navController.navigate(R.id.loginFragment, null,
+                    androidx.navigation.NavOptions.Builder()
+                        .setPopUpTo(R.id.loginFragment, true)
+                        .build()
+                )
                 true
             }
             else -> super.onOptionsItemSelected(item)

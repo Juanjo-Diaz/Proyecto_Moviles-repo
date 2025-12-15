@@ -6,6 +6,10 @@
             android:icon="@android:drawable/ic_menu_view"
             android:title="@string/menu_explore" />
         <item
+            android:id="@+id/favFragment"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/tab_favorites" />
+        <item
             android:id="@+id/contactFragment"
             android:icon="@android:drawable/ic_menu_call"
             android:title="@string/menu_contact" />

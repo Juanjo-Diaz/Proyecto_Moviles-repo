@@ -11,18 +11,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/imageHeader"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_mtg_shivan"
-            android:contentDescription="@string/content_image"/>
-
+                android:id="@+id/imageHeader"
+                android:layout_width="363dp"
+                android:layout_height="238dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_mtg_shivan"
+                android:contentDescription="@string/content_image"/>
         <VideoView
-            android:id="@+id/videoView"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="16dp" />
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="16dp"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnCall"

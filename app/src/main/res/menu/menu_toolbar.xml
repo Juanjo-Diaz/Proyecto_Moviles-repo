@@ -12,4 +12,10 @@
         android:icon="@android:drawable/ic_menu_sort_by_size"
         android:title="@string/menu_sort"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_go_login"
+        android:icon="@drawable/logout_24px"
+        android:title="@string/menu_logout"
+        app:showAsAction="ifRoom" />
+
 </menu>
