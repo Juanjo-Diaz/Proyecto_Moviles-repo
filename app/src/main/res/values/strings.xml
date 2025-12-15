@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Proyecto Android</string>
+    <string name="title_login">Iniciar sesión</string>
+    <string name="title_register">Crear cuenta</string>
+    <string name="title_tabs">Explorar</string>
+    <string name="tab_all">Todas</string>
+    <string name="tab_favorites">Favoritas</string>
+
+    <string name="menu_explore">Explorar</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_preferences">Preferencias</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_search_hint">Buscar…</string>
+    <string name="menu_sort">Ordenar</string>
+    <string name="sort_asc">Ascendente</string>
+    <string name="sort_desc">Descendente</string>
+    <string name="fab_add">Añadir</string>
+    <string name="drawer_username">Usuario invitado</string>
+
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_login_google">Iniciar sesión con Google</string>
+    <string name="text_create_account">¿No tienes cuenta aún? Crea una.</string>
+    <string name="google_login_not_implemented">Funcionalidad no implementada aún</string>
+    <string name="login_success">Inicio de sesión correcto</string>
+    <string name="error_invalid_credentials">Credenciales inválidas</string>
+
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="hint_birthdate">Fecha de nacimiento</string>
+    <string name="action_create_account">Crear cuenta</string>
+    <string name="error_passwords_mismatch">Las contraseñas no coinciden</string>
+    <string name="date_picker_title">Selecciona tu fecha de nacimiento</string>
+
+    <string name="mtg_title_1">Relámpago</string>
+    <string name="mtg_desc_1">Carta instantáneo que causa 3 de daño.</string>
+    <string name="mtg_title_2">Counterspell</string>
+    <string name="mtg_desc_2">Anula el hechizo objetivo.</string>
+    <string name="mtg_title_3">Llanowar Elves</string>
+    <string name="mtg_desc_3">Acelera tu maná verde.</string>
+    <string name="mtg_title_4">Shivan Dragon</string>
+    <string name="mtg_desc_4">Un clásico dragón rojo.</string>
+    <string name="action_favorite">Favorito</string>
+    <string name="content_image">Imagen de carta</string>
+
+    <string name="contact_title">Contacto</string>
+    <string name="contact_call">Llamar</string>
+    <string name="contact_whatsapp">WhatsApp</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_email_subject">Consulta desde la app</string>
+    <string name="contact_phone_uri">tel:+34682910269</string>
+    <string name="contact_whatsapp_url">https://wa.me/34682910269</string>
+    <string name="contact_email_uri">mailto:5514529@alu.murciaeduca.es</string>
+
+    <string name="prefs_title">Preferencias</string>
+    <string name="prefs_language">Idioma (ES/EN)</string>
+    <string name="prefs_theme">Tema (claro/oscuro)</string>
+    <string name="prefs_notifications">Notificaciones (push/email)</string>
+</resources>

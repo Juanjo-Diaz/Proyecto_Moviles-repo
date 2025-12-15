@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_tabs">Explore</string>
+    <string name="tab_all">All</string>
+    <string name="tab_favorites">Favorites</string>
+
+    <string name="menu_explore">Explore</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_search_hint">Search…</string>
+    <string name="menu_sort">Sort</string>
+    <string name="sort_asc">Ascending</string>
+    <string name="sort_desc">Descending</string>
+    <string name="fab_add">Add</string>
+    <string name="drawer_username">Guest user</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="action_login">Log in</string>
+    <string name="action_login_google">Log in with Google</string>
+    <string name="text_create_account">Don\'t have an account yet? Create one.</string>
+    <string name="google_login_not_implemented">Functionality not implemented yet</string>
+    <string name="login_success">Login successful</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_birthdate">Birthdate</string>
+    <string name="action_create_account">Create account</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="date_picker_title">Select your birthdate</string>
+
+    <string name="mtg_title_1">Lightning Bolt</string>
+    <string name="mtg_desc_1">Instant card that deals 3 damage.</string>
+    <string name="mtg_title_2">Counterspell</string>
+    <string name="mtg_desc_2">Counter target spell.</string>
+    <string name="mtg_title_3">Llanowar Elves</string>
+    <string name="mtg_desc_3">Accelerates your green mana.</string>
+    <string name="mtg_title_4">Shivan Dragon</string>
+    <string name="mtg_desc_4">A classic red dragon.</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="content_image">Card image</string>
+
+    <string name="contact_title">Contact</string>
+    <string name="contact_call">Call</string>
+    <string name="contact_whatsapp">WhatsApp</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_email_subject">Inquiry from the app</string>
+    <string name="contact_phone_uri">tel:+34123456789</string>
+    <string name="contact_whatsapp_url">https://wa.me/34123456789</string>
+    <string name="contact_email_uri">mailto:info@lalibreria.com</string>
+
+    <string name="prefs_title">Preferences</string>
+    <string name="prefs_language">Language (ES/EN)</string>
+    <string name="prefs_theme">Theme (light/dark)</string>
+    <string name="prefs_notifications">Notifications (push/email)</string>
+</resources>
