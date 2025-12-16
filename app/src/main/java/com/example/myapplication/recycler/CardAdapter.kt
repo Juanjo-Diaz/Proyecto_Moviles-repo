@@ -17,7 +17,7 @@ class CardAdapter(
     private val lockFavoriteButton: Boolean = false
 ) : RecyclerView.Adapter<CardAdapter.CardViewHolder>() {
 
-    private val tone = ToneGenerator(AudioManager.STREAM_MUSIC, 80)
+    private val tone = ToneGenerator(AudioManager.STREAM_MUSIC, 100)
 
     fun submitList(newItems: List<CardItem>) {
         items = newItems
@@ -36,7 +36,7 @@ class CardAdapter(
         holder.bind(item, lockFavoriteButton) {
             if (!lockFavoriteButton) {
                 if (item.isFavorite) {
-                    tone.startTone(ToneGenerator.TONE_PROP_NACK, 120)
+                    tone.startTone(ToneGenerator.TONE_PROP_BEEP, 120)
                 } else {
                     tone.startTone(ToneGenerator.TONE_PROP_BEEP, 120)
                 }
