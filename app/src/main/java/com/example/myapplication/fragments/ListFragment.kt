@@ -44,20 +44,6 @@ class ListFragment : Fragment() {
         }
     }
 
-    override fun onResume() {
-        super.onResume()
-        activity?.findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(
-            R.id.fabAdd
-        )?.visibility = View.VISIBLE
-    }
-
-    override fun onPause() {
-        super.onPause()
-        activity?.findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(
-            R.id.fabAdd
-        )?.visibility = View.GONE
-    }
-
     private fun initialItems(): List<CardItem> = listOf(
         CardItem(1, getString(R.string.mtg_title_1), getString(R.string.mtg_desc_1), R.drawable.ic_mtg_bolt),
         CardItem(2, getString(R.string.mtg_title_2), getString(R.string.mtg_desc_2), R.drawable.ic_mtg_counterspell),
