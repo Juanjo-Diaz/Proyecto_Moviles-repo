@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.myapplication.fragments.LoginFragment"
+        android:name="com.example.p2dam_226.fragments.LoginFragment"
         android:label="@string/title_login"
         tools:layout="@layout/fragment_login">
         <action
@@ -19,31 +19,31 @@
 
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.myapplication.fragments.RegisterFragment"
+        android:name="com.example.p2dam_226.fragments.RegisterFragment"
         android:label="@string/title_register"
         tools:layout="@layout/fragment_register" />
 
     <fragment
         android:id="@+id/tabFragment"
-        android:name="com.example.myapplication.fragments.TabFragment"
+        android:name="com.example.p2dam_226.fragments.TabFragment"
         android:label="@string/title_tabs"
         tools:layout="@layout/fragment_tab" />
 
     <fragment
         android:id="@+id/contactFragment"
-        android:name="com.example.myapplication.fragments.ContactFragment"
+        android:name="com.example.p2dam_226.fragments.ContactFragment"
         android:label="@string/contact_title"
         tools:layout="@layout/fragment_contact" />
 
     <fragment
         android:id="@+id/preferencesFragment"
-        android:name="com.example.myapplication.fragments.PreferencesFragment"
+        android:name="com.example.p2dam_226.fragments.PreferencesFragment"
         android:label="@string/prefs_title"
         tools:layout="@layout/fragment_preferences" />
 
     <fragment
         android:id="@+id/favFragment"
-        android:name="com.example.myapplication.fragments.FavFragment"
+        android:name="com.example.p2dam_226.fragments.FavFragment"
         android:label="@string/tab_favorites"
         tools:layout="@layout/fragment_fav" />
 

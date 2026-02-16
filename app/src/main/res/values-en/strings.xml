@@ -32,14 +32,6 @@
     <string name="error_passwords_mismatch">Passwords do not match</string>
     <string name="date_picker_title">Select your birthdate</string>
 
-    <string name="mtg_title_1">Lightning Bolt</string>
-    <string name="mtg_desc_1">Instant card that deals 3 damage.</string>
-    <string name="mtg_title_2">Counterspell</string>
-    <string name="mtg_desc_2">Counter target spell.</string>
-    <string name="mtg_title_3">Llanowar Elves</string>
-    <string name="mtg_desc_3">Accelerates your green mana.</string>
-    <string name="mtg_title_4">Shivan Dragon</string>
-    <string name="mtg_desc_4">A classic red dragon.</string>
     <string name="action_favorite">Favorite</string>
     <string name="content_image">Card image</string>
 
@@ -56,4 +48,12 @@
     <string name="prefs_language">Language (ES/EN)</string>
     <string name="prefs_theme">Theme (light/dark)</string>
     <string name="prefs_notifications">Notifications (push/email)</string>
+
+    <string name="add_book">Add Book</string>
+    <string name="dialog_title">New Book</string>
+    <string name="dialog_title_hint">Title</string>
+    <string name="dialog_desc_hint">Description</string>
+    <string name="dialog_fav_label">Favorite</string>
+    <string name="dialog_add">Add</string>
+    <string name="dialog_cancel">Cancel</string>
 </resources>

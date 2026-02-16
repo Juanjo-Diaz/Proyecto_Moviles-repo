@@ -32,14 +32,6 @@
     <string name="error_passwords_mismatch">Las contraseñas no coinciden</string>
     <string name="date_picker_title">Selecciona tu fecha de nacimiento</string>
 
-    <string name="mtg_title_1">Relámpago</string>
-    <string name="mtg_desc_1">Carta instantáneo que causa 3 de daño.</string>
-    <string name="mtg_title_2">Counterspell</string>
-    <string name="mtg_desc_2">Anula el hechizo objetivo.</string>
-    <string name="mtg_title_3">Llanowar Elves</string>
-    <string name="mtg_desc_3">Acelera tu maná verde.</string>
-    <string name="mtg_title_4">Shivan Dragon</string>
-    <string name="mtg_desc_4">Un clásico dragón rojo.</string>
     <string name="action_favorite">Favorito</string>
     <string name="content_image">Imagen de carta</string>
 
@@ -55,5 +47,13 @@
     <string name="prefs_title">Preferencias</string>
     <string name="prefs_language">Idioma (ES/EN)</string>
     <string name="prefs_theme">Tema (claro/oscuro)</string>
+    <string name="add_book">Añadir libro</string>
+    <string name="dialog_title">Nuevo libro</string>
+    <string name="dialog_title_hint">Título</string>
+    <string name="dialog_desc_hint">Descripción</string>
+    <string name="dialog_fav_label">Favorito</string>
+    <string name="dialog_add">Añadir</string>
+    <string name="dialog_cancel">Cancelar</string>
+
     <string name="prefs_notifications">Notificaciones (push/email)</string>
 </resources>
